@@ -1,2 +1,4 @@
-command = "npm run build"
-publish = ".output/public"
+[build]
+  base = "Assignment1"
+  command = "npx nuxi generate"
+  publish = ".output/public"
