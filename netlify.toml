@@ -1,3 +1,4 @@
 [build]
-  command = "cd Assignment1 && npx nuxi generate"
-  publish = "Assignment1/.output/public"
+  base = "Assignment1"
+  command = "npx nuxi generate"
+  publish = ".output/public"
