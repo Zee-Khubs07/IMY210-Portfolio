@@ -1,4 +1,3 @@
 [build]
-  base = "Assignment1"
   command = "npx nuxi generate"
   publish = ".output/public"
